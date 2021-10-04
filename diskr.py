@@ -5,8 +5,6 @@ while True:
     a = float( input( "ievadiet a" ) )
     b = float( input( "ievadiet b" ) )
     c = float( input( "ievadiet c" ) )
-    ddd = b ** 2
-    dd = 4 * a * c
     d = b ** 2 - 4 * a * c
     if d > 0:
         x1 = (d ** 0.5 + b * -1) / (2 * a)
