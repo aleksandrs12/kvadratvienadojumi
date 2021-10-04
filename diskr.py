@@ -3,6 +3,8 @@ print( "risināšu kvadrāvienādojumus" )
 print( "ax²+-bx+-c=0" )
 while True:
     a = float( input( "ievadiet a" ) )
+    if a == 0:
+        break
     b = float( input( "ievadiet b" ) )
     c = float( input( "ievadiet c" ) )
     d = b ** 2 - 4 * a * c
