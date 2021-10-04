@@ -22,4 +22,3 @@ while True:
         print('nav atrisinājuma')
     if input('ja jūs gribas turpināt nospiediet enter, citādi ievadiet kaut ko un tad nospiediet enter'):
         break
-    input()
