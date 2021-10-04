@@ -4,7 +4,8 @@ print( "ax²+-bx+-c=0" )
 while True:
     a = float( input( "ievadiet a" ) )
     if a == 0:
-        break
+        print('nav kvadrātvienādojums')
+        continue
     b = float( input( "ievadiet b" ) )
     c = float( input( "ievadiet c" ) )
     d = b ** 2 - 4 * a * c
@@ -19,4 +20,6 @@ while True:
         print(x1)
     else:
         print('nav atrisinājuma')
+    if input('ja jūs gribas turpināt nospiediet enter, citādi ievadiet kaut ko un tad nospiediet enter'):
+        break
     input()
