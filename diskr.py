@@ -6,8 +6,12 @@ while True:
     if a == 0:
         print('nav kvadrātvienādojums')
         continue
-    b = float( input( "ievadiet b" ) )
-    c = float( input( "ievadiet c" ) )
+    try:
+        b = float( input( "ievadiet b" ) )
+        c = float( input( "ievadiet c" ) )
+    except:
+        print('notikusi kļūda')
+        continue
     d = b ** 2 - 4 * a * c
     if d > 0:
         x1 = (d ** 0.5 + b * -1) / (2 * a)
